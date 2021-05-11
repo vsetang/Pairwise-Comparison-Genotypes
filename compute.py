@@ -79,7 +79,6 @@ def combinations(iterable, r):
 				break
 		else:
 			return
-		#indices[i] = indices[i] + 1
 		indices[i] += 1
 		for j in range(i+1, r):
 			indices[j] = indices[j-1] + 1
@@ -170,12 +169,14 @@ else:
 	file_out.columns = ['Samp1', 'Samp2', 'Score']
 	#create text file of the results
 	file_out.to_csv(TODAY_STR + '_output.txt', sep='\t', index=False)
+	print("0/1 Score file: " + TODAY_STR + '_output.txt')
 
 	#Create columns for full listing
 	full_out.columns = ['Samp1', 'Samp2', 'Score']
 	#create text file of the results of full listing
 	full_out.to_csv(TODAY_STR + '_RAW_output.txt', sep='\t', index=False)
-	print(file_out)
+	print("Full Score file: " + TODAY_STR + '_output.txt')
+	
 
 end = time.time()
 print('Total Running Time: %.2f' %(end-strt))
