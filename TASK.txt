@@ -14,4 +14,5 @@ PersonB  0 1 1 2 1 0 0 1 . 2
 In this example, the genotypes for variants 8 and 9 will not be counted for the score since there is a missing call. The total score for this pair should be 1 + 1 + 1 + 1 = 4 (for 1 difference in the scores for variants 1, 5, 6, and 10). 
  
  
-If the score for a pair is 0 or 1, we want to output that pair along with their score
+If the score for a pair is 0 or 1, we want to output that pair along with their score. 
+Any pairs meeting this criterion will be sequenced on a larger panel (~40-50 variants), and we will want to re-compute the distance scores using the new panel results.
