@@ -7,7 +7,6 @@ If pandas is not installed, please use the following command to install pandas.
 
 ********** Download Pandas **********
 pip install pandas
-\n
 
 DESCRIPTION:
 compute.py will calculate the pairwise distance scores between pairs of samples
@@ -27,7 +26,7 @@ OUTPUT:	Tab delimated text file with the the paired sample and their score of
 	either 0 or 1 in one file and a full listing in a second file. 
 
 			Samp1	Samp2	Score
-\n
+
 
 ********** USAGE EXAMPLE **********
 python compute.py <input_file_path>
