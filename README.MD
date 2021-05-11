@@ -18,7 +18,7 @@ and output two text file with the paired sample with their total distance score 
 - "**.**"	:	Missing 
 
 ***OUTPUT***:	Two tab delimated text file with the the paired sample and their score of
-	either 0 or 1 in one file and a full listing in a second file. 
+	either 0 or 1 in one file and a full listing in a second file. Both files will be in the current directory
 Samp1 | Samp2 | Score
 ------------ | ------------- | -------------
 
