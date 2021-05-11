@@ -22,7 +22,7 @@ GENOTYPES:		0 - Homozygous reference
 			2 - Homozygote Alternate
 			. - Missing 
 
-OUTPUT:	Tab delimated text file with the the paired sample and their score of
+OUTPUT:	Two tab delimated text file with the the paired sample and their score of
 	either 0 or 1 in one file and a full listing in a second file. 
 
 			Samp1	Samp2	Score
